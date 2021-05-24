@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: blanchedalmond;
+    background: rgb(24, 22, 23);
+    font-family: 'Caveat', cursive;
+}
+
+.navbar {
+    display: flex;
+    height: 70px;
+    background: #110d29;
+}
+
+.nav {
+    margin: auto;
+    font-size: 22px;
+}
+
+.pic-changer {
+    margin: auto;
+}
+
+.image-container {
+    padding-top: 60px;
+    display: flex;
+}
+
+.img {
+    margin: auto auto 60px auto;
+}
+
+#image {
+    border: solid 2px whitesmoke;
+    border-radius: 15px;
+}
+
+.button-container {
+    display: flex;
+    height: 50px;
+}
+
+.button-div {
+    margin: auto;
+}
+
+.footer-copy {
+    display: flex;
+    margin-top: 135px;
+    padding-bottom: 15px;
+}
+
+.footer-text {
+    margin: auto;
+    font-size: 11px
+}
+
+button {
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: none;
+    color: rgb(255, 0, 64);
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    border: solid 3px rgb(255, 0, 64);
+}
+
+
+/* Hover not working on button :( */
+
+@media only screen and (max-width: 768px) {
+    #image {
+        width: 90vw;
+    }
+    .footer-text {
+        margin: auto;
+        font-size: smaller
+    }
+}

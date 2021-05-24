@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) {
+    #image {
+        width: 50vw;
+    }
+    footer {
+        height: 30px;
+    }
+    .footer-text {
+        margin: auto auto 25px auto;
+        font-size: smaller
+    }
+    .footer-copy {
+        padding-bottom: 15px;
+    }
+}
